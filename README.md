@@ -2,11 +2,13 @@
 
 Here you can find a Firefox script providing GNOME overlay scrollbars previously included in the [Firefox GNOME theme](https://github.com/rafaelmardojai/firefox-gnome-theme).
 
-## Installation
+## Manual installation
 
 1. Copy `user_chrome` contents (`gnome-scrollbars.uc.js` file & `utils` folder) to your Firefox profile chrome folder (`FIREFOX_PROFILE\chrome`).
 
 2. Copy `firefox_install` contents (`config.js` file and `defaults` folder) to Firefox installation folder, usually found in `/usr/lib/firefox` or `/usr/lib64/firefox`.
+
+> This project includes a custom JS scripts loader based on [firefox-scripts by xiaoxiaoflood](https://github.com/xiaoxiaoflood/firefox-scripts), so any `.uc.js` file put in `FIREFOX_PROFILE\chrome` will be loaded.
 
 > If you already use some custom JS scripts loader, just copy `user_chrome/gnome-scrollbars.uc.js` file.
 
