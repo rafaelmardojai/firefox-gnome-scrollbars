@@ -32,7 +32,7 @@
 		box-sizing: border-box !important;
 		background-color: transparent;
 		background-image: none;
-		z-index: 1;
+		z-index: 2;
 		pointer-events: auto;
 		width: auto !important;
 		border-style: solid !important;
