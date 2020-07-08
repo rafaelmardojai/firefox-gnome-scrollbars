@@ -14,8 +14,8 @@ fi
 
 FFPROFILEPATH=~/.mozilla/firefox/$FFPROFILE
 
-
-cp -i user_chrome/gnome-scrollbars.uc.js $FFPROFILEPATH/chrome
+mkdir -p  $FFPROFILEPATH/chrome
+cp -i user_chrome/gnome-scrollbars.uc.js $FFPROFILEPATH/chrome/
 cp -ir user_chrome/utils $FFPROFILEPATH/chrome
 
 
