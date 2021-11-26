@@ -1,3 +1,7 @@
+# Unmaintained
+
+This repo is unmaintained and has been archived. Now you can enable overlay scrollbars in Firefox by adding  `ui.useOverlayScrollbars` with value of `1` in `about:config`. [Firefox GNOME theme](https://github.com/rafaelmardojai/firefox-gnome-theme) has this config enabled by default.
+
 #  Firefox GNOME scrollbars
 
 Here you can find a Firefox script providing GNOME overlay scrollbars previously included in the [Firefox GNOME theme](https://github.com/rafaelmardojai/firefox-gnome-theme).
